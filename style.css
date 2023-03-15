@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+header{
+    background: #06030F;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header__one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__ul__left {
+}
+.ru__li {
+    font: 600 16px/130% 'Manrope';
+    color: white;
+    cursor: pointer;
+}
+.header__ul__center {
+    display: flex;
+    gap: 32px;
+}
+.center__ul__li {
+    font: 600 16px/130% 'Manrope';
+    color: white; 
+    cursor: pointer;
+}
+.header__ul__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.ul__right {
+    font: 600 16px/130% 'Manrope';
+    color: white; 
+    cursor: pointer;
+}
+.ul__right__icon {
+}
+
+.header__two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.heaader__div__left {
+    display: flex;
+    gap: 20px;
+}
+.rigth__icon {
+}
+.div__rigt__p {
+    font: 800 32px/90% 'Manrope';
+    color: white;
+}
+.header__line {
+}
+.line__icon {
+}
+.header__div__center {
+    display: flex;
+    align-items: center;
+    width: 648px;
+    height: 66px;
+    background: rgba(196, 196, 196, 0.05);
+    border-radius: 15px;
+    
+}
+.center__inp {
+    border: none;
+    outline: none;
+    background: none;
+    font: 400 16px/130% 'Manrope';
+    padding-left: 20px;
+    color: #9B9A9F;
+}
+.center__inp::placeholder{
+    color: #9B9A9F;
+    padding: 22px 0 23px 30px;
+
+}
+
+.poisk__icon {
+    margin-left: 350px; 
+    
+}
+.header__div__rigth {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.head__div__rigth__p {
+    font: 500 16px/130% 'Manrope';
+    color: #77BE1D;
+}
+.head__rigth__icons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.serdechko {
+}
+.telejka {
+}
+/* section1 slaider */
+main{
+    background: #06030F;
+}
+.swiper-slide {
+    background-image: url(./img/needfor.png);
+    background-repeat: no-repeat;
+    width: 1260px;
+    z-index: 10;
+    margin-top: 20px;
+    margin-left: 100px;
+   
+}
+.slaide__descript {
+    padding: 176px 548px 130px 120px;
+    display: flex;
+    flex-direction: column;
+}
+.need-text {
+    width: 221px;
+    height: 65px;
+    margin-bottom: 20px;
+}
+.sl__des__p {
+    font: 400 24px/160% 'Manrope';
+    color: #FFFFFF;
+    width: 592px;
+    height: 114px;
+}
+.slaide__money {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 44px;
+}
+.sl__mon__one {
+    font: 800 32px/130% 'Manrope';
+    color: #FFFFFF;
+
+}
+.sl__mon__two {
+    font: 800 20px/130% 'Manrope';
+    color: #77BE1D;
+}
+.sl__mon__three {
+    font: 600 20px/130% 'Manrope';
+    color: rgba(255, 255, 255, 0.3);
+
+}
+.slaide__button {
+    display: flex;
+    gap: 10px;
+}
+.sl__btn {
+    padding: 23px 40px 27px;
+    color: black;
+    background: #FFFFFF;
+    border-radius: 15px; 
+    border: none;
+    cursor: pointer;
+}
+.sl__btn:nth-child(2){
+    padding: 23px 40px 27px;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px; 
+    border: none;
+    cursor: pointer;
+}
