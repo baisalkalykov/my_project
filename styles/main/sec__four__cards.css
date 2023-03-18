@@ -1,0 +1,23 @@
+.section__foour__ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+    margin-top: 80px;
+}
+.sec__four__ul__li__act {
+    font: 500 20px/130% 'Manrope';
+    color: white;
+
+}
+.sec__four__ul__li {
+    font: 500 20px/130% 'Manrope';
+    color: #868686;
+}
+.section__cards__four {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 60px;
+}

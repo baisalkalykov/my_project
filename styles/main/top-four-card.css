@@ -1,0 +1,147 @@
+.top4 {
+    margin-top: 100px;
+}
+.top__four {
+}
+.cards__sec__two {
+   max-width: 100%;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 30px;
+
+}
+.card {
+    width: 100%;
+    max-width: 300px;
+    
+}
+.card__img {
+    width: 100%;
+    height: 450px;
+    background-image: url(../../img/top-img1.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.card__img__second{
+    width: 100%;
+    height: 450px;
+    background-image: url(../../img/top4-img2.png);
+    background-repeat: no-repeat;
+}
+.card__img__third{
+    width: 100%;
+    height: 450px;
+    background-image: url(../../img/top4-img3.png);
+    background-repeat: no-repeat;
+}
+.card__img__fourth{
+    width: 100%;
+    height: 450px;
+    background-image: url(../../img/top4-img4.png);
+    background-repeat: no-repeat;
+}
+.card__img__icon {
+   display: flex;
+   gap: 134px;
+   padding: 20px;
+}
+.card__ic {
+}
+.card__img__icon__two {
+    width: 41px;
+    height: 41px;
+    background: #FFFFFF;
+    border-radius: 38px;
+    padding: 13px 10px 11px 10px;
+}
+.card__ic__two {
+}
+.card__button {
+    width: 260px;
+    padding: 17px 15px 23px 15px; 
+    background: #77BE1D;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    color: white;
+    margin: 300px 20px 20px 30px;
+    cursor: pointer;
+    display: none;
+}
+.card__img:hover>.card__button{
+    display: block;
+}
+.card__img__second:hover>.card__button{
+    display: block;
+}
+.card__img__third:hover>.card__button{
+    display: block;
+}
+.card__img__fourth:hover>.card__button{
+    display: block;
+}
+.card__money {
+    display: flex;
+    gap: 20px; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.card__money__p__one {
+    font: 500 24px/130% 'Manrope';
+    color: #FFFFFF;
+}
+.card__money__p__two {
+    font: 500 18px/130% 'Manrope';
+    color: #77BE1D;
+}
+.card__money__p__three {
+    font: 400 18px/130% 'Manrope';
+    color: rgba(255, 255, 255, 0.2);
+}
+.card__text {
+
+    font: 400 18px/130% 'Manrope';
+    color: #FFFFFF;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 13px;
+}
+.card__checkbox {
+    display: flex;
+    gap: 9px;
+}
+#happy {
+    width: 14px;
+    height: 14px;
+    background: #3D394A;
+    border-radius: 100px;
+}
+.check__p {
+    font: 500 14px/130% 'Manrope';
+    color: #747474;
+}
+
+@media (max-width: 575.98px) {  }
+
+@media (max-width: 767.98px) {  }
+
+@media (max-width: 973px) {
+    .cards__sec__two{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+ }
+
+@media (max-width: 1199.98px) { }
+
+@media (max-width: 1399.98px) {
+    .cards__sec__two{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+ }
+ @media(max-width:641px){
+    .cards__sec__two{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+ }

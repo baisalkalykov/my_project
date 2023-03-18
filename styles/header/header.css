@@ -1,0 +1,145 @@
+header{
+    background: #06030F;
+    padding: 25px 20px 24px;
+}
+
+.header__one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__ul__left {
+}
+.ru__li {
+    font: 600 16px/130% 'Manrope';
+    color: white;
+    cursor: pointer;
+}
+.header__ul__center {
+    display: flex;
+    gap: 32px;
+}
+.center__ul__li {
+    font: 600 16px/130% 'Manrope';
+    color: white; 
+    cursor: pointer;
+}
+.header__ul__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.ul__right {
+    font: 600 16px/130% 'Manrope';
+    color: white; 
+    cursor: pointer;
+}
+.ul__right__icon {
+}
+
+.header__two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+.header__mobail{
+    display: none;
+}
+.heaader__div__left {
+    display: flex;
+    gap: 20px;
+}
+.rigth__icon {
+}
+.div__rigt__p {
+    font: 800 32px/90% 'Manrope';
+    color: white;
+}
+.header__line {
+}
+.line__icon {
+}
+.header__div__center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 648px;
+    height: 66px;
+    background: rgba(196, 196, 196, 0.05);
+    border-radius: 15px;
+}
+.center__inp {
+    background: transparent;
+    font: 400 16px/130% 'Manrope';
+    padding-left: 20px;
+    color: #9B9A9F;
+}
+.center__inp::placeholder{
+    color: #9B9A9F;
+    padding: 22px 0 23px 0;
+}
+
+.poisk__icon {
+    margin-right: 25px;
+}
+
+.header__div__rigth {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.head__div__rigth__p {
+    font: 500 16px/130% 'Manrope';
+    color: #77BE1D;
+}
+.head__rigth__icons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.serdechko {
+}
+.telejka {
+}
+
+
+@media (max-width: 991.98px) {
+    .header__one{
+        display: none;
+    }
+    .center__inp{
+        display: none;
+    }
+    .header__mobail{
+        display: block;
+    }
+    .header__div__center{
+        background: transparent
+    }
+    .header__two{
+        margin: 0 auto;
+    }
+    .header__line{
+        display: none;
+    }
+    .poisk__icon{
+        margin: 0;
+    }
+    .header__div__center{
+        justify-content: end;
+    }
+    .serdechko{
+        display: none;
+    }
+    .head__div__rigth__p{
+        display: none;
+    }
+
+ }
+@media (max-width: 767.98px) {  }
+@media (max-width: 575.98px) {  }
+

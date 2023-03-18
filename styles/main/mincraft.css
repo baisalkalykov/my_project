@@ -1,0 +1,116 @@
+.cadrs__sec__three{
+    max-width: 100%;
+    margin-top: 90px;
+    display: flex;
+    gap: 20px;
+}
+.cards__mincraft{
+    width: 620px;
+    height: 360px;
+    background: linear-gradient(131.39deg, #1DBE53 -11.11%, #ACE238 73.42%);
+    border-radius: 15px;
+    position: relative;
+}
+.cards__mincraft::after{
+    content: '';
+    position: absolute;
+    background-image: url(../../img/mincraft-zel.png);
+    background-repeat: no-repeat;
+    width: 262px;
+    height: 374px;
+    z-index: 10;
+    right: 0;
+    top: -10%;
+}
+.cards__mincraft__two{
+    width: 620px;
+    height: 360px;
+    background: linear-gradient(131.39deg, #FF3D23 -11.11%, #FDA828 73.42%);
+    border-radius: 15px;
+    position: relative;
+}
+.cards__mincraft__two::before{
+    content: '';
+    position: absolute;
+    background-image: url(../../img/mincraft-2.png);
+    background-repeat: no-repeat;
+    width: 542px;
+    height: 403px;
+    z-index: 10;
+    right: -50%;
+    top: -10%;
+}
+.mincraft__p {
+    font: 800 36px/130% 'Manrope';
+    color: white;
+    padding: 40px 0 0 40px;
+    margin-bottom: 20px;
+}
+.mincraft__money {
+    display: flex;
+    gap: 20px;
+    padding-left: 40px;
+    margin-bottom: 80px;
+}
+.mincraft__money__one {
+    font: 800 24px/130% 'Manrope';
+    color: white;
+}
+.mincraft__money__two {
+    font: 800 20px/130% 'Manrope';
+    color: #FFE817;
+}
+.mincraft__money__three {
+    font: 600 20px/130% 'Manrope';
+    color: rgba(255, 255, 255, 0.5);
+}
+.mincraft__btn {
+    display: flex;
+    gap: 18px;
+    padding-left: 40px;
+}
+.min__btn__one {
+    width: 144px;
+    height: 63px;
+    font: 800 18px/130% 'Manrope';
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.min__btn__two {
+    width: 144px;
+    height: 63px;
+    font: 800 18px/130% 'Manrope';
+    color: white;
+    background: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 575.98px) {  }
+
+@media (max-width: 767.98px) {  }
+
+@media (max-width: 991.98px) { }
+
+@media (max-width: 1199.98px) { }
+
+@media (max-width: 1399.98px) {
+    .cards__mincraft::after{
+        display: none;
+    }
+    .cards__mincraft__two::before{
+        display: none;
+    }
+ }
+ @media(max-width:641px){
+ }
+ @media(max-width:711){
+    .mincraft__btn {
+        margin-bottom: 20px ;
+    }
+ }
+
+
+ 
