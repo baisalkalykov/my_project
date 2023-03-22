@@ -18,32 +18,33 @@
 .card__img {
     width: 100%;
     height: 450px;
-    background-image: url(../../img/top-img1.png);
-    background-repeat: no-repeat;
     border-radius: 10px;
+    position: relative;
 }
 .card__img__second{
     width: 100%;
     height: 450px;
-    background-image: url(../../img/top4-img2.png);
-    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
 }
-.card__img__third{
+.card__img__three{
     width: 100%;
     height: 450px;
-    background-image: url(../../img/top4-img3.png);
-    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
 }
-.card__img__fourth{
+.card__img__four{
     width: 100%;
     height: 450px;
-    background-image: url(../../img/top4-img4.png);
-    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
 }
 .card__img__icon {
    display: flex;
    gap: 134px;
    padding: 20px;
+   position: absolute;
+   top: 3%;
 }
 .card__ic {
 }
@@ -63,9 +64,13 @@
     backdrop-filter: blur(10px);
     border-radius: 12px;
     color: white;
-    margin: 300px 20px 20px 30px;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: 10;
     cursor: pointer;
     display: none;
+    position: absolute;
 }
 .card__img:hover>.card__button{
     display: block;
@@ -73,10 +78,10 @@
 .card__img__second:hover>.card__button{
     display: block;
 }
-.card__img__third:hover>.card__button{
+.card__img__three:hover>.card__button{
     display: block;
 }
-.card__img__fourth:hover>.card__button{
+.card__img__four:hover>.card__button{
     display: block;
 }
 .card__money {
@@ -135,7 +140,7 @@
 
 @media (max-width: 1399.98px) {
     .cards__sec__two{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
  }

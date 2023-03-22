@@ -2,7 +2,7 @@
     height: 700px;
 }
 .swiper-slide {
-    background-image: url(/img/needfor.png);
+    background-image: url(../../img/needfor.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

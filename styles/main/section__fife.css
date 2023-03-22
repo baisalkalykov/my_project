@@ -1,0 +1,80 @@
+.section__five__card__text{
+    font: 600 18px/130% 'Manrope';
+    color: white;
+    margin-top: 60px;
+   margin-bottom: 10px;
+}
+.section__fife__cards {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.section__fife__card {
+   max-width: 100%;
+   margin-bottom: 30px;
+}
+.fife__card__img {
+    width: 620px;
+    height: 319px;
+    border-radius: 15px;
+}
+.fife-card-img__one {
+}
+.section__fife__cards__p{
+    font: 600 18px/130% 'Manrope';
+    color: white;
+    margin-bottom: 15px;
+}
+.card__money {
+}
+.card__money__p__one {
+}
+.card__money__p__two {
+}
+.card__money__p__three {
+}
+.section__fife__cards__p {
+}
+.card__checkbox {
+}
+.custom-checkbox {
+}
+.check__p {
+}
+
+
+
+@media (max-width: 575.98px) {  }
+
+@media (max-width: 767.98px) {
+  }
+
+@media (max-width: 973px) {
+    .section__fife__cards{
+        margin-left: 0;
+    }
+    .section__five__card__text{
+        margin-left: 0;
+    }
+ }
+
+@media (max-width: 1263px) { 
+    .section__fife__cards {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        /* margin-left: 100px; */
+    }
+    .section__five__card__text{
+        /* margin-left: 100px; */
+    }
+}
+
+@media (max-width: 1399.98px) {
+
+ }
+ @media(max-width:641px){
+    
+ }
