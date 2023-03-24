@@ -1,0 +1,138 @@
+.reviews{
+    display: flex;
+    gap: 60px;
+}
+.revi__text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 78px;
+}
+.revi__text__p {
+    font: 500 32px/130% 'Manrope';
+    color: white;
+}
+.revi__text__btn {
+    width: 227.7px;
+    height: 51.45px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font: 500 17px/130% 'Manrope';
+    color: blue;
+    background: none;
+    cursor: pointer;
+}
+
+
+.reviews__one {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 78px;
+}
+.reviews__one__p {
+    font: 500 24px/13px 'Manrope';
+    color: white;
+    padding-left: 35px;
+}
+.stars {
+    display: flex;
+    gap: 2px;
+    margin-top:15px;
+    margin-bottom: 17px;
+}
+.star {
+    width: 33px;
+    height: 33px;
+    background: #00B67A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.star__img {
+    
+}
+.reviews__one__p__two{
+    font: 400 15px/18px 'Roboto';
+    color: white;
+}
+.zvez__text__img {
+    width: 147.78px;
+    height: 37.22px;
+}
+.reviews__two {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.box__srars__text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+.box__srars__two {
+    display: flex;
+    gap: 2px;
+}
+.star__two {
+    width: 21px;
+    height: 20px;
+    background: #00B67A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.star__img {
+    width: 15px;
+    height: 13px;
+}
+.box__srars__text__p{
+    font: 500 15px/18px 'Roboto';
+    color: #969696;
+}
+.reviews__two__p__one {
+    font: 500 15px/18px 'Roboto';
+    color: white;
+    margin-top: 11px;
+}
+.reviews__two__p__two {
+    font: 400 15px/18px 'Roboto';
+    color: white;
+    margin-top: 20px;
+    
+    
+}
+.reviews__two__p__three {
+    font: 400 15px/18px 'Roboto';
+    color: #969696;
+    margin-top: 20px;
+}
+.reviews__two__p__four {
+    font: 400 15px/18px 'Roboto';
+    color: white;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 575.98px) {  }
+
+@media (max-width: 767.98px) {  }
+
+@media (max-width: 923px) { 
+.reviews{
+    flex-wrap: wrap;
+}
+}
+
+@media (max-width: 1199.98px) { }
+
+@media (max-width: 1399.98px) {
+   
+ }
+ @media(max-width:641px){
+ }
+ @media(max-width:711){
+    
+ }

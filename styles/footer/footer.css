@@ -1,0 +1,87 @@
+.footer__icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 51px;
+    margin-top: 161px;
+}
+.footer__description{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.footer__text__left {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.footer__text__left__p {
+    font: 600 22px/130%  'Manrope';
+    color: #FFFFFF;
+    margin-bottom: 27px;
+
+}
+.footer__ul {
+    display: flex;
+    flex-direction: column;
+    column-gap: 25px;
+}
+.footer__ul__li {
+    font: 400 19px/130%  'Manrope';
+    color: #CDCDCF;
+}
+.footer__text__right__icons{
+    display: flex;
+    gap: 36px;
+    margin-top: 40px;
+}
+.footer__text__bottom{
+    font: 400 19px/130%  'Manrope';
+    color: #63686D;
+    margin-top: 41px;
+}
+.footer__description__bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 57px;
+}
+.description__bottom__p__one{
+    font: 400 19px/130%  'Manrope';
+    color: #4277FF;
+}
+.description__bottom__p__two{
+    font: 400 19px/130%  'Manrope';
+    color: #63686D; 
+}
+.description__bottom__icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+@media (max-width: 575.98px) {  }
+
+@media (max-width: 767.98px) {  }
+
+@media (max-width: 923px) { 
+
+}
+
+@media (max-width: 1063px) {
+    .footer__icons{
+        display: none;
+    }
+    .footer__description{
+        flex-wrap: wrap;
+    }
+ }
+
+@media (max-width: 1399.98px) {
+   
+ }
+ @media(max-width:641px){
+ }
+ @media(max-width:711){}
